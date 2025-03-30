@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap</title>
+    <style>
+
+        .gallery .row .col-12 img:hover {
+            box-shadow: 0 0 10px 2px aqua;
+        }
+    </style>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+
+            <a class="navbar-brand fs-4" href="#">Морская живность</a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav fs-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Главная</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a class="nav-link" href="#">Рыбы</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a class="nav-link" href="#">Крабы</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a class="nav-link" href="#">Молюски</a>
+                    </li>
+                    <li class="nav-item fs-4">
+                        <a class="nav-link" href="#">Список живности</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="m-5 mt-2">
+
+    <div class="gallery">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-12">
+                <a href="">
+                     <img src="main_picture.jpg"  class="w-100 h-100" alt="picture">
+                </a>
+                
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4">
+                <a href="">
+                     <img src="crue.jpg"  class="w-100 h-100 pt-1" alt="picture">
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4">
+                <a href="">
+                     <img src="fish.jpg"  class="w-100 h-100 pt-1" alt="picture">
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-4">
+                <a href="">
+                     <img src="shellfish.jpg"  class="w-100 h-100 pt-1" alt="picture">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="text-block">
+        <div class="row">
+            <div class="col-12  col-md-6 col-xl-3">
+                <p class="h2 text-center">
+                    Крабики
+                </p>
+
+                <p class="lead text-center">
+                    - инфраотряд десятиногих ракообразных, обитающих в солёной и пресной воде Иногда достигают огромных размеров: крабы Macrocheira kaempferi, обитающие у берегов Японии, достигают массы в 19 кг при размахе ног до 3,8 м. 
+                </p>
+
+            </div>
+            <div class="col-12  col-md-6 col-xl-3">
+                <p class="h2 text-center">
+                    Молюски
+                </p>
+            
+                <p class="lead text-center">
+                 - тип первичноротых целомических животных со спиральным дроблением. Оценка общего количества видов моллюсков колеблется в разных публикациях в диапазоне от 100 до 200 тысяч. В России насчитывают около 2900 видов. Этот тип обычно делят на 7 или 8 современных классов, к которым добавляют минимум 3 полностью вымерших.
+                </p>
+            </div>
+            <div class="col-12  col-md-6 col-xl-3">
+            
+                <p class="h2 text-center">
+                    Рыбы
+                </p>
+
+                <p class="lead text-center">
+                    - обширная группа водных челюстноротых позвоночных животных, ранее считавшаяся надклассом. Рыбы характеризуются жаберным дыханием на всех этапах постэмбрионального развития организма. С точки зрения кладистики четвероногие являются специализированными лопастепёрыми рыбами. Тем не менее, поскольку традиционно понятие «рыбы» относится к парафилетической группе, не включающей четвероногих, в современной систематике рыбы отсутствуют как таксон.
+                </p>
+            </div>
+            <div class="col-12  col-md-6 col-xl-3">
+                <div class="row">
+                    <div class="col-8">
+                        <img src="shuka.jpg"  class="w-100 h-100" alt="picture">
+                    </div>
+
+                    <div class=" col-4 d-flex flex-wrap align-items-center">
+                        <p class="h3 align-middle">
+                            Щука
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <p class="fs-5">
+                            — хищная пресноводная рыба с длинным телом и острыми зубами, обитающая в реках и озерах.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <img src="tuna.jpg"  class="w-100 h-100" alt="picture">
+                    </div>
+
+                    <div class=" col-4 d-flex flex-wrap align-items-center">
+                        <p class="h3 align-middle">
+                            Тунец
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <p class="fs-5">
+                            — крупная морская рыба, известная своей скоростью и ценная в рыболовстве и кулинарии.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-8">
+                        <img src="celedi.jpg"  class="w-100 h-100" alt="picture">
+                    </div>
+
+                    <div class=" col-4 d-flex flex-wrap align-items-center">
+                        <p class="h3 align-middle">
+                            Селедь
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <p class="fs-5">
+                            — небольшая рыба, обитающая в морях, используется в кулинарии, особенно в виде консервов.
+                        </p>
+                    </div>
+                </div>
+                
+            
+            </div>
+
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="text-left p-5" style="background-color: rgba(0, 0, 0, 0.05);">
+
+            <p class="float-start">
+                © Орехов С.Е., 2 группа, 2024-2025
+            </p>
+            
+            <p class="float-end">
+                ✉ Контакты
+            </p>
+            
+          </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
